@@ -1,0 +1,11 @@
+[[main]]
+  identifier = "notes"
+  name = "笔记"
+  url = "notes"
+  weight = 1
+
+[[main]]
+  identifier = "blog"
+  name = "主站"
+  url = "https://yusancky.github.io/"
+  weight = 2
