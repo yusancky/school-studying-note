@@ -94,7 +94,7 @@ D. $\lbrace -6, -3, -2, -1, 2, 3, 6 \rbrace$
 
 ----
 
-求出使 $x \in (-1, 3)$ 是 $x \in \lbrace x | 1 - a < x < 1 + a \rbrace$ 的必要不充分条件的实数 $a$ 的取值范围。
+使 $x \in (-1, 3)$ 是 $x \in \lbrace x | 1 - a < x < 1 + a \rbrace$ 的必要不充分条件的实数 $a$ 的取值范围是____。
 
 {{< expand "答案和解析" >}}
 【错解】$(0, 2]$
@@ -109,3 +109,48 @@ D. $\lbrace -6, -3, -2, -1, 2, 3, 6 \rbrace$
 {{< /expand >}}
 
 ----
+
+命题“$\forall x > -3, \frac{3}{2x - 4} < 0$”的否定形式是____。
+
+{{< expand "答案和解析" >}}
+【错解】$\exists x > -3, \frac{3}{2x - 4} \geq 0$
+
+【答案】$\exists x > -3, \frac{3}{2x - 4} \geq 0 \text{ 或 } 2x - 4 = 0$
+{{< /expand >}}
+
+----
+
+若 $\lbrace x | ax - 6 = 0 \rbrace \cup \lbrace 2, 3 \rbrace = \lbrace 2, 3 \rbrace$，则实数 $a$ 的所有可能的值构成的集合是____。
+
+{{< expand "答案和解析" >}}
+【错解】$\lbrace 2, 3 \rbrace$
+
+【答案】\lbrace 0, 2, 3 \rbrace$
+
+【错因分析】当 $a = 0$ 时，$\lbrace x | ax - 6 = 0 \rbrace = \varnothing$，符合题意。
+{{< /expand >}}
+
+----
+
+命题“$\forall x \in \mathbf{R}, \exists n \in \mathbf{N}^*, n \geq x^2$”的否定形式是____。
+
+A. $\forall x \in \mathbf{R}, \exists n \in \mathbf{N}^*, n < x^2$
+
+B. $\forall x \in \mathbf{R}, \forall n \in \mathbf{N}^*, n < x^2$
+
+C. $\exists x \in \mathbf{R}, \exists n \in \mathbf{N}^*, n < x^2$
+
+D. $\exists x \in \mathbf{R}, \forall n \in \mathbf{N}^*, n < x^2$
+
+{{< expand "答案和解析" >}}
+【错项】B
+
+【答案】D
+{{< /expand >}}
+
+----
+
+## 第二章 一元二次函数、方程和不等式
+
+----
+
