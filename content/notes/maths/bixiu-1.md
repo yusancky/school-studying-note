@@ -154,3 +154,55 @@ D. $\exists x \in \mathbf{R}, \forall n \in \mathbf{N}^*, n < x^2$
 
 ----
 
+已知 $-3 \leq a + b \leq 2, -1 \leq a - b \leq 4$，$3a - 2b$ 的取值范围为____。
+
+{{< expand "答案和解析" >}}
+【答案】$[-4, 11]$
+
+【解析】考虑将 $a + b$ 和 $a - b$ 整体代入至 $3a - 2b = \frac 1 2 (a + b) + \frac 5 2 (a - b)$。
+{{< /expand >}}
+
+----
+
+已知非负实数 $x, y, z$ 满足 $3x + 2y + z = 5, 2x + y - 3z = 1$，求 $u = 3x + y - 7z$ 的取值范围。
+
+{{< expand "答案和解析" >}}
+由已知可消元知 $x = 7z - 3 \geq 0, y = -11z + 7 \geq 0, z \geq 0$，故 $\frac 3 7 \leq z \leq \frac{7}{11}$。
+
+把上式代入知 $u = 3z - 2$，结合 $z$ 的取值范围可知 $-\frac 5 7 \leq u \leq -\frac{1}{11}$。
+{{< /expand >}}
+
+----
+
+已知 $a, b, c$ 为三角形三边长，求证 $(a + b + c) ^ 2 < 4(ab + ac + bc)$。
+
+{{< expand "答案和解析" >}}
+$$
+\begin{aligned}
+(a + b + c) ^ 2 &= a ^ 2 + b ^ 2 + c ^ 2 + 2(ab + ac + bc) \\
+&= a \times a + b \times b + c \times c + 2(ab + ac + bc) \\
+&\lt a(b + c) + b(a + c) + c(a + b) + 2(ab + ac + bc) \\
+&= 4(ab + ac + bc)
+\end{aligned}
+$$
+{{< /expand >}}
+
+----
+
+若正实数 $x, y$ 满足 $(x - y) ^ 2 = (xy) ^ 3$，求 $\frac 1 x + \frac 1 y$ 的最小值。
+
+{{< expand "答案和解析" >}}
+$$
+\begin{aligned}
+(x - y) ^ 2 &= (xy) ^ 3 \\
+\frac{(x - y) ^ 2}{(xy) ^ 2} &= xy \\
+(\frac 1 x - \frac 1 y) ^ 2 &= xy \\
+(\frac 1 x + \frac 1 y) ^ 2 - \frac{4}{xy} &= xy \\
+(\frac 1 x + \frac 1 y) &= \sqrt{xy + \frac{4}{xy}} \\
+&\geq \sqrt{2 \sqrt{4}} \\
+&= 2 \\
+\end{aligned}
+$$
+{{< /expand >}}
+
+----
